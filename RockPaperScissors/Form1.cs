@@ -13,7 +13,7 @@ namespace RockPaperScissors
             return outcomes[rand.Next(0, 3)];
         }
         public string UserOutcome { get; private set; }
-        public string ComputerOutcome { get; private set;}
+        public string ComputerOutcome { get; private set; }
         public int Wins { get; private set; }
         public int Loses { get; private set; }
         public int Draws { get; private set; }

@@ -48,6 +48,7 @@ namespace RockPaperScissors
             // 
             splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer1.IsSplitterFixed = true;
             splitContainer1.Location = new System.Drawing.Point(0, 0);
             splitContainer1.Name = "splitContainer1";
             splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -90,8 +91,8 @@ namespace RockPaperScissors
             // labelStats
             // 
             this.labelStats.AutoSize = true;
-            this.labelStats.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.labelStats.Location = new System.Drawing.Point(10, 7);
+            this.labelStats.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Bold);
+            this.labelStats.Location = new System.Drawing.Point(3, 0);
             this.labelStats.Name = "labelStats";
             this.labelStats.Size = new System.Drawing.Size(229, 15);
             this.labelStats.TabIndex = 0;
